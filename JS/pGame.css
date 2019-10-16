@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-image: url("back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ 
+}
+
+.back{
+	background-color: white;
+	background-position: center;
+	height: 80%;
+	width: 65%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.active{
+	background-color: #F2F2F2;
+}
+
+
+.player2, .player1{
+	width: 50%;
+	float: left;
+	height: 100%;
+	text-align: center;
+
+
+}
+
+.current1, .current2{
+	 width: 30%;
+	 background-color: red;
+	 height: 15%;
+	 margin-top: 60%;
+	 margin-bottom: 30%;
+	 margin-left: 35%;
+	 text-align: center;
+	 padding-top: 20px;
+}
+
+.dice{
+	position: absolute;
+    left: 45%;
+    height: 100px;
+    top: 200px;
+}
+
